@@ -38,7 +38,7 @@ module.exports = React.createClass({
                 style={this.getStyle('headerTitle')}
                 {...this.props}
             >
-              {this.props.title.toUpperCase()}
+              {this.props.title}
             </Text>
             {childrenWithProps}
 
